@@ -1,0 +1,143 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body::before {
+    background-repeat: no-repeat;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    color: #151922;
+    right: 0;
+    opacity: 0.8;
+    background-image: url("teachbg.jpg");
+    content: " ";
+    z-index: -1;
+    --webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+/* navbar */
+/* .navbar {
+   
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+.navbar li {
+
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(7, 7, 7);
+    padding: 14px 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration:underline;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar li a:hover {
+    background-color:aquamarine;
+} */
+
+/*forms*/
+#heading {
+    color: green;
+    font-size:40px;
+    text-decoration: underline;
+}
+form {
+    width: 500px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    padding-right: 40px;
+    border: 0px solid #181522;
+    border-radius: 18px;
+    box-shadow: 2px 2px 46px;
+    background-color: rgba(13, 63, 66, 0);
+    text-shadow: 0px 2px 68px #151922;
+    
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    background-color: #070e20;
+    vertical-align: bottom;
+    padding: 16px;
+    margin: 5px 0 22px 0;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(29, 42, 53);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    outline: none;
+
+}
+::placeholder {
+    opacity: 0.6;
+}
+
+button{
+    border-style: solid;
+    padding: 12px 28px;
+    touch-action: manipulation;
+    cursor: pointer;
+    color: rgb(17, 5, 5);
+    overflow: visible;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #4687ff;
+    background-color: #4687ff;
+    margin-top: 10px;
+    margin-left: 90px;
+    box-shadow: 0 2px 6px;
+    opacity: 0.9;
+}
+button:hover {
+    opacity: 1;
+}
+
+.signinbtn {    
+    width: 55%;
+}
+
+.container {
+    margin-left: 15px;
+}
+
+label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+#branch {
+    width:100%;
+    padding: 12px 28px;
+    color: #f1f1f1;
+    background-color: #070e20;
+    border-radius: 8px;
+    margin-top: 15px;
+}
